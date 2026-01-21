@@ -1,0 +1,31 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+  <!-- Dark background -->
+  <rect width="120" height="120" fill="#0a0a0a"/>
+  
+  <!-- Minimalist EZZI text with futuristic style -->
+  <text x="60" y="75" font-family="'Space Mono', monospace" font-size="64" font-weight="700" text-anchor="middle" fill="white" letter-spacing="-2">
+    EZZI
+  </text>
+  
+  <!-- Subtle accent line under text -->
+  <line x1="25" y1="90" x2="95" y2="90" stroke="#06b6d4" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Small corner accent marks (HUD style) -->
+  <g stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.5">
+    <!-- Top-left corner -->
+    <line x1="15" y1="15" x2="35" y2="15"/>
+    <line x1="15" y1="15" x2="15" y2="35"/>
+    
+    <!-- Top-right corner -->
+    <line x1="85" y1="15" x2="105" y2="15"/>
+    <line x1="105" y1="15" x2="105" y2="35"/>
+    
+    <!-- Bottom-left corner -->
+    <line x1="15" y1="85" x2="15" y2="105"/>
+    <line x1="15" y1="105" x2="35" y2="105"/>
+    
+    <!-- Bottom-right corner -->
+    <line x1="105" y1="85" x2="105" y2="105"/>
+    <line x1="85" y1="105" x2="105" y2="105"/>
+  </g>
+</svg>
